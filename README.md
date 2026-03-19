@@ -28,43 +28,29 @@ The system uses a Convolutional Neural Network (CNN) trained on the ASL Alphabet
 
 ---
 
-## 🗂 Project Structure
+## 📂 Project Structure
 
-sign-language-translator-ai
-
+```
+sign-language-translator-ai/
 │
-
 ├── model/
-
-│ └── sign_language_model.h5
-
+│   └── sign_language_model.h5
 │
-
 ├── images/
-
-│ ├── hand gesture.jpeg
-
-│ └── download.png
-
+│   ├── hand_gesture.jpeg
+│   └── download.png
 │
-
 ├── audio/
-
-│ └── output-final.mp3
-
+│   └── output-final.mp3
 │
-
 ├── notebooks/
-
-│ └── Gen_AI_model_for_deaf_and_mute.ipynb
-
+│   └── Gen_AI_model_for_deaf_and_mute.ipynb
 │
-
 ├── requirements.txt
-
 ├── README.md
-
 └── .gitignore
+```
+
 
 
 ---
@@ -92,19 +78,19 @@ The system uses a Convolutional Neural Network (CNN) to classify hand gestures.
 Architecture:
 
 Input Image (64x64)
-↓  
+      ↓  
 Conv2D Layer  
-↓  
+      ↓  
 MaxPooling Layer  
-↓  
+      ↓  
 Conv2D Layer  
-↓  
+      ↓  
 MaxPooling Layer  
-↓  
+      ↓  
 Flatten Layer  
-↓  
+      ↓  
 Dense Layer  
-↓  
+      ↓  
 Output Layer (29 classes)
 
 ---
@@ -114,15 +100,15 @@ Output Layer (29 classes)
 The pipeline of the system works as follows:
 
 Hand Gesture Image  
-↓  
+        ↓  
 Image Preprocessing (OpenCV)  
-↓  
+        ↓  
 CNN Model Prediction  
-↓  
+        ↓  
 Letter Classification  
-↓  
+        ↓  
 Text Output  
-↓  
+        ↓  
 Speech Output using gTTS
 
 ---
@@ -161,19 +147,19 @@ The system uses a Convolutional Neural Network (CNN) to classify hand gestures.
 Architecture:
 
 Input Image (64x64)
-↓  
+     ↓  
 Conv2D Layer  
-↓  
+     ↓  
 MaxPooling Layer  
-↓  
+     ↓  
 Conv2D Layer  
-↓  
+     ↓  
 MaxPooling Layer  
-↓  
+     ↓  
 Flatten Layer  
-↓  
+     ↓  
 Dense Layer  
-↓  
+     ↓  
 Output Layer (29 classes)
 
 ---
@@ -183,15 +169,15 @@ Output Layer (29 classes)
 The pipeline of the system works as follows:
 
 Hand Gesture Image  
-↓  
+       ↓  
 Image Preprocessing (OpenCV)  
-↓  
+       ↓  
 CNN Model Prediction  
-↓  
+       ↓  
 Letter Classification  
-↓  
+       ↓  
 Text Output  
-↓  
+       ↓  
 Speech Output using gTTS
 
 ---
