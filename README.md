@@ -144,7 +144,7 @@ Predicted Output:
 Predicted Sign: Z
 
 
-Speech Output:
+Speech Output: https://github.com/darshinio-debug/Sign-language-translator/blob/main/output-final.mp3
 
 Audio generated saying the predicted letter.
 
