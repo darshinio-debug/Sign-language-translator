@@ -141,7 +141,7 @@ Input Image: https://github.com/darshinio-debug/Sign-language-translator/blob/ma
 
 Predicted Output:
 
-Predicted Sign: Z
+Predicted Sign- Z
 
 
 Speech Output: https://github.com/darshinio-debug/Sign-language-translator/blob/main/output-final.mp3
