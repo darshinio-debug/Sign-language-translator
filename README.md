@@ -71,17 +71,6 @@ https://www.kaggle.com/datasets/grassknoted/asl-alphabet
 
 ---
 
-## 🧪 Example Output
-
-Input Image:
-
-Hand gesture representing a sign
-
-Predicted Output:
-
-
----
-
 ## 📊 Dataset
 
 This project uses the **ASL Alphabet Dataset** which contains images representing American Sign Language hand gestures.
@@ -100,25 +89,28 @@ https://www.kaggle.com/datasets/grassknoted/asl-alphabet
 
 ## ⚙️ Model Architecture
 
-The system uses a Convolutional Neural Network (CNN) to classify hand gestures.
+The system uses a **Convolutional Neural Network (CNN)** to classify hand gestures.
 
-Architecture:
+### 🧩 Architecture Flow
 
+```
 Input Image (64x64)
-     ↓  
-Conv2D Layer  
-     ↓  
-MaxPooling Layer  
-     ↓  
-Conv2D Layer  
-     ↓  
-MaxPooling Layer  
-     ↓  
-Flatten Layer  
-     ↓  
-Dense Layer  
-     ↓  
+        ↓
+Conv2D Layer
+        ↓
+MaxPooling Layer
+        ↓
+Conv2D Layer
+        ↓
+MaxPooling Layer
+        ↓
+Flatten Layer
+        ↓
+Dense Layer
+        ↓
 Output Layer (29 classes)
+```
+
 
 ---
 
@@ -126,17 +118,20 @@ Output Layer (29 classes)
 
 The pipeline of the system works as follows:
 
-Hand Gesture Image  
-       ↓  
-Image Preprocessing (OpenCV)  
-       ↓  
-CNN Model Prediction  
-       ↓  
-Letter Classification  
-       ↓  
-Text Output  
-       ↓  
-Speech Output using gTTS
+```id="7p3nvd"
+Hand Gesture Image
+        ↓
+Image Preprocessing (OpenCV)
+        ↓
+CNN Model Prediction
+        ↓
+Letter Classification
+        ↓
+Text Output
+        ↓
+Speech Output (gTTS)
+```
+
 
 ---
 
