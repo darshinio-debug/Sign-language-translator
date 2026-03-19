@@ -71,48 +71,6 @@ https://www.kaggle.com/datasets/grassknoted/asl-alphabet
 
 ---
 
-## ⚙️ Model Architecture
-
-The system uses a Convolutional Neural Network (CNN) to classify hand gestures.
-
-Architecture:
-
-Input Image (64x64)
-      ↓  
-Conv2D Layer  
-      ↓  
-MaxPooling Layer  
-      ↓  
-Conv2D Layer  
-      ↓  
-MaxPooling Layer  
-      ↓  
-Flatten Layer  
-      ↓  
-Dense Layer  
-      ↓  
-Output Layer (29 classes)
-
----
-
-## 🔄 Workflow
-
-The pipeline of the system works as follows:
-
-Hand Gesture Image  
-        ↓  
-Image Preprocessing (OpenCV)  
-        ↓  
-CNN Model Prediction  
-        ↓  
-Letter Classification  
-        ↓  
-Text Output  
-        ↓  
-Speech Output using gTTS
-
----
-
 ## 🧪 Example Output
 
 Input Image:
