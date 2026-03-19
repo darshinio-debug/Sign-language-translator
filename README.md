@@ -137,11 +137,10 @@ Speech Output (gTTS)
 
 ## 🧪 Example Output
 
-Input Image: 
-
-Hand gesture representing a sign
+Input Image: https://github.com/darshinio-debug/Sign-language-translator/blob/main/sign%20Z.jpg
 
 Predicted Output:
+
 Predicted Sign: Z
 
 
