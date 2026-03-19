@@ -137,7 +137,7 @@ Speech Output (gTTS)
 
 ## 🧪 Example Output
 
-Input Image:
+Input Image: 
 
 Hand gesture representing a sign
 
@@ -207,6 +207,3 @@ Darshini
 
 AI / Machine Learning Enthusiast  
 
-
-
-Run the prediction script:
